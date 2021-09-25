@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Addmition from</title>
+    <link rel=stylesheet type="text/css" href="css/form.css">
+</head>
+<body>
+    
+        
+        <form>
+           <div id="form">
+                 
+            <h2>Admission Form</h2><br>
+                <label>Name</label><br>
+                <input id="textbox" type="text"><br><br>
+
+                <label>Email</label><br>
+                <input id="textbox" type="email"><br><br>
+
+                <label>Moblie No</label><br>
+                <input id="textbox" type="text"><br><br>
+
+                <label>12 mark % Persentage </label>
+                <input id="textbox" type="text"><br><br>
+
+                <label>Choose The Deparment</label><br>
+                <select>
+                    <option>None</option>
+                    <option>BA.Tamil</option>
+                    <option>BA.English</option>
+                    <option>Bcom(PA)</option>
+                    <option>Bcom(CA)</option>
+                    <option>BSc(IT)</option>
+                    <option>BSc(CS)</option>
+                    <option>BSc(Electronics)</option>
+                    <option>BBA</option>
+                </select><br><br>
+
+                <input type="button" id="btn" value="Back" onclick="back()">
+                <input type="button" id="btn" value="Submit" onclick="sub()">
+            
+            </div>
+        </form>
+        <script>
+            function back()
+        
+        {
+
+            location.href="coures.html";
+        
+        }
+
+        
+        function sub()
+        {
+            var a1="admission successfully";
+            alert(a1);
+            location.href="coures.html";
+        }
+            </script>
+        
+
+</body>
+</html>
